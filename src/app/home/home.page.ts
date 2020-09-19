@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+  text = '';
+  displayAlert()
+  {
+      alert('Account created successfully');
+  }
 
 }
